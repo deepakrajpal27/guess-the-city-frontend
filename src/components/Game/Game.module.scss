@@ -1,0 +1,64 @@
+.game {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    &__title {
+      font-size: 28px;
+      color: #333;
+    }
+  
+    &__score {
+      font-size: 20px;
+      color: #007bff;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    &__button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      transition: background 0.3s ease;
+  
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  
+    &__hint {
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+    }
+  
+    &__input {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 80%;
+      max-width: 300px;
+      text-align: center;
+    }
+  
+    &__message {
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+  }
+  

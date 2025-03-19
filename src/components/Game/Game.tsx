@@ -97,6 +97,11 @@ const Game: React.FC = () => {
             type="text"
             value={guess}
             onChange={(e) => setGuess(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                submitGuess();
+              }
+            }}
             placeholder="Enter your guess..."
           />
           <button className={styles.game__button} onClick={submitGuess}>
